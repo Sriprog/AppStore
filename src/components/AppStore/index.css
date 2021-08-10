@@ -1,0 +1,67 @@
+/* Write your CSS here */
+
+* {
+  margin: 0px;
+}
+.AppStore-Container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.input-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #7b8794;
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+  margin-top: 30px;
+  outline: none;
+  padding: 10px;
+}
+
+.input-part {
+  background-color: transparent;
+  border-width: 0px;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.img {
+  height: 20px;
+  width: 20px;
+}
+.tab-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.app-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
